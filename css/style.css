@@ -146,7 +146,8 @@
   font-size: 14px;
 }
 .readmore {
-  width: 184px;
+  max-width: 184px;
+  width: 100%;
   height: 50px;
   background-color: #5863f8;
   display: -webkit-box;
@@ -162,6 +163,7 @@
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
+  
 }
 .moreread{
   color: white;
@@ -695,6 +697,12 @@
   align-items: center;
   border-radius: 50px;
   font-size: 20px;
+  transition: all 0.4s;
+}
+.env:hover{
+  color: #5863F8;
+  background-color: white;
+  border: solid #5863F8;
 }
 .envemail{
   font-size: 18px;
@@ -709,4 +717,7 @@
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+.paragh{
+  margin-bottom: 5px;
 }
