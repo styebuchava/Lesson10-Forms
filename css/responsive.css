@@ -177,4 +177,12 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .contact-wraper{
+    flex-direction: column;
+    align-items: center;
+  }
+  .phone2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
